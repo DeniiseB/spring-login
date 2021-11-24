@@ -12,6 +12,7 @@ public class DemoApplication {
 
 	//	SpringApplication.run(DemoApplication.class, args);
 
+		// Set dynamic port for Spring (easier with node)
 		String PORT = System.getenv("PORT");
 
 		SpringApplication app = new SpringApplication(DemoApplication.class);
